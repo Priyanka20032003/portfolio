@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.top {
+  background: linear-gradient(to right, #8121d0, #291c3a);
+  color: white;
+  position: relative;
+ 
+}
+.container {
+  width: 80%;
+  margin: auto;
+
+}
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+.title{
+  font-family: "Grey Qo", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 45px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 35px;
+ 
+}
+.nav ul li a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.nav ul li:hover {
+  text-decoration: underline;
+
+}
+
+.btn button {
+  padding-inline: 25px;
+  padding-block: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+  
+}
+.btn button a{
+  color: black;
+  text-decoration: none;
+ 
+}
+.closeIcon{
+  display: none;
+}
+
+.hamburgerIcon{
+  display: none;
+}
+
+
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .nav ul {
+    display: block;
+  }
+
+  .btn button {
+    display: none;
+  }
+
+  .header {
+    padding: 6px;
+    position: relative;
+  }
+
+  .hamburgerIcon {
+    display: block;
+  }
+  .rectangle {
+    content: "";
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left:-100%;
+    width: 50%;
+    height: 100vh;
+    background-color: #291c3a;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  .rectangle.open {
+    left: 0;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    cursor: pointer;
+    color: white;
+    display: block;
+ 
+  }
+  
+  .nav ul{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+
+   }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .nav ul {
+    display: block;
+  }
+
+  .btn button {
+    display: none;
+  }
+
+  .header {
+    padding: 6px;
+    position: relative;
+  }
+
+  .hamburgerIcon {
+    display: block;
+  }
+  .rectangle {
+    content: "";
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left:-100%;
+    width: 35%;
+    height: 100vh;
+    background-color: #291c3a;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  .rectangle.open {
+    left: 0;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    cursor: pointer;
+    color: white;
+    display: block;
+ 
+  }
+  
+  .nav ul{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+
+   }
+  
+
+  
+}

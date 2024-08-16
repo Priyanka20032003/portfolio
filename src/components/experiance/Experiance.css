@@ -1,0 +1,141 @@
+.experiance{
+    background-color:   #e1ebed;
+    /* border: 2px solid; */
+    padding-block: 50px;
+    
+}
+.experianceH2{
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.company,.description{
+    margin-left: 150px;
+
+}
+
+.company{
+    position: relative;
+    font-size: 18px;
+   
+}
+.experianceH2::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:66px;
+    left: 130px;
+    width: 3px;
+    height: 270px;
+    background-color:  #291c3a;
+}
+.company::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:0px;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:  #291c3a
+
+
+}
+.company::before{
+    content: "2024";
+    display: inline-block;
+    position: absolute;
+    top:0px;
+    left: -80px;
+    width: 20px;
+    height: 20px;
+   
+}
+.description{
+    margin-top: 15px;
+    max-width: 800px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 16px;
+}
+@media screen and (max-width:396px){
+    .company,.description{
+        margin-left: 40px;
+    
+    }
+    .experianceH2::after{
+   
+        left: 18px;
+        width: 3px;
+        height: 660px;
+     
+    }
+
+    .company::before{
+        content: "(2024)";    
+        left: 80%;    
+    }
+ 
+
+}
+@media screen and (min-width:397px) and (max-width:576px){
+    .company,.description{
+        margin-left: 50px;
+    
+    }
+    .experianceH2::after{
+   
+        left: 28px;
+        width: 3px;
+        height: 510px;
+     
+    }
+
+    .company::before{
+        content: "(2024)";    
+        left: 65%;    
+    }
+}
+@media screen and (min-width:398px) and (max-width:450px){
+    .company::before{
+        content: "(2024)";    
+        left: 79%;    
+    }
+
+
+}
+@media screen and (min-width:451px) and (max-width:576px){
+    .company::before{
+        content: "(2024)";    
+        left: 62%;    
+    }
+
+
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .company,.description{
+        margin-left: 100px;
+    
+    }
+    .experianceH2::after{
+   
+        left: 78px;
+        width: 3px;
+        height: 420px;
+     
+    }
+
+   
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+    .experianceH2::after{
+   
+        left: 130px;
+        width: 3px;
+        height: 330px;
+     
+    }
+
+
+}

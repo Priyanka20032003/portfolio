@@ -1,0 +1,141 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(125deg,white,#331C52,#291c3a) ;
+    color: white;
+    padding-block:30px ;
+}
+/* .homeHeader{
+    margin-left: -15%;
+} */
+.homeH2{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.emoji{
+    font-size: 32px;
+    margin-left: -5px;
+    
+}
+.homeH1{
+    margin-top: 20px;
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: #8121D0;
+    opacity: 0.8;
+}
+.homep1{
+    font-size: 40px;
+}
+.profile{
+    width: 350px;
+    height: 350px;
+    margin-left: -90px;
+}
+.profile img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+@media screen and (max-width:396px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        background:linear-gradient(155deg,white,#331C52,#291c3a) ;
+   
+    }
+   
+    .homeH2{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .homeH1{
+        margin-top: 10px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    
+    }
+    .homep1{
+        font-size: 25px;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+       
+      
+    }
+
+  
+}
+@media screen and (min-width:397px) and (max-width:576px){
+    .home{
+        display: flex;
+        background:linear-gradient(125deg,white,#331C52,#291c3a) ;
+        justify-content: space-around;
+   
+    }
+   
+    .homeH2{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .homeH1{
+        margin-top: 10px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    
+    }
+    .homep1{
+        font-size: 25px;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        margin-left: 0;
+      
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .homeH2{
+       margin-top: 0;
+        font-size: 35px;
+    }
+    .homeH1{
+        margin-top: 10px;
+        font-size: 45px;
+    
+    
+    }
+    .homep1{
+        font-size: 30px;
+    }
+    .profile{
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+      
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+    .profile{
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+      
+    }
+    .home{
+        background:linear-gradient(115deg,white,#331C52,#291c3a) ;
+    }
+    .homeH2{
+        margin-top: 0;
+         font-size: 35px;
+     }
+    
+}
