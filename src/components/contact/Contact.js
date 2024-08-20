@@ -5,6 +5,7 @@ import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Contact.css";
 import Popup from "./Popup";
+import { Element } from "react-scroll";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +49,9 @@ const Contact = () => {
           setIsSubmitting(false); // Re-enable the form after successful submission
         },
         (error) => {
-          setPopupMessage("Failed to send the message, please try again later.");
+          setPopupMessage(
+            "Failed to send the message, please try again later."
+          );
           setShowPopup(true);
           setIsSubmitting(false); // Re-enable the form if there's an error
         }
@@ -56,78 +59,80 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
-      <Popup
-        message={popupMessage}
-        showPopup={showPopup}
-        closePopup={() => setShowPopup(false)}
-      />
-      <div className="container violetbox">
-        <div className="contact-Left-Right">
-          <div className="contactLeft">
-            <div>
-              <h3 className="contactH3">
-                Let's discuss <br /> something <span>cool</span> together
-              </h3>
+    <Element name="contact">
+      <div className="contact">
+        <Popup
+          message={popupMessage}
+          showPopup={showPopup}
+          closePopup={() => setShowPopup(false)}
+        />
+        <div className="container violetbox">
+          <div className="contact-Left-Right">
+            <div className="contactLeft">
+              <div>
+                <h3 className="contactH3">
+                  Let's discuss <br /> something <span>cool</span> together
+                </h3>
+              </div>
+              <div>
+                <h4 className="contactH4">I'm interested in..</h4>
+                <div className="intrests">
+                  <a href="#" className="intrest">
+                    Web Development
+                  </a>
+                  <a href="#" className="intrest">
+                    Frontend Development
+                  </a>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4 className="contactH4">I'm interested in..</h4>
-              <div className="intrests">
-                <a href="#" className="intrest">
-                  Web Development
+            <div className="contactRight">
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  disabled={isSubmitting} // Disable when submitting
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  disabled={isSubmitting} // Disable when submitting
+                />
+                <textarea
+                  name="message"
+                  rows="10"
+                  cols="50"
+                  placeholder="Your message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  disabled={isSubmitting} // Disable when submitting
+                />
+                <button type="submit" disabled={isSubmitting}>
+                  {isSubmitting ? "Submitting..." : "Submit"}
+                </button>
+              </form>
+              <div className="icons">
+                <a href="https://www.linkedin.com/in/priyanka-g-744860248/">
+                  <FontAwesomeIcon className="icon" icon={faLinkedin} />
                 </a>
-                <a href="#" className="intrest">
-                  Frontend Development
+                <a href="mailto:guntamadugupriyanka2003@gmail.com">
+                  <FontAwesomeIcon className="icon" icon={faEnvelope} />
+                </a>
+                <a href="#">
+                  <FontAwesomeIcon className="icon" icon={faInstagram} />
                 </a>
               </div>
             </div>
           </div>
-          <div className="contactRight">
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                name="name"
-                placeholder="Your name"
-                value={formData.name}
-                onChange={handleChange}
-                disabled={isSubmitting} // Disable when submitting
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your email"
-                value={formData.email}
-                onChange={handleChange}
-                disabled={isSubmitting} // Disable when submitting
-              />
-              <textarea
-                name="message"
-                rows="10"
-                cols="50"
-                placeholder="Your message"
-                value={formData.message}
-                onChange={handleChange}
-                disabled={isSubmitting} // Disable when submitting
-              />
-              <button type="submit" disabled={isSubmitting}>
-                {isSubmitting ? "Submitting..." : "Submit"}
-              </button>
-            </form>
-            <div className="icons">
-              <a href="https://www.linkedin.com/in/priyanka-g-744860248/">
-                <FontAwesomeIcon className="icon" icon={faLinkedin} />
-              </a>
-              <a href="mailto:guntamadugupriyanka2003@gmail.com">
-                <FontAwesomeIcon className="icon" icon={faEnvelope} />
-              </a>
-              <a href="#">
-                <FontAwesomeIcon className="icon" icon={faInstagram} />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

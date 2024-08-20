@@ -7,16 +7,21 @@ import JavaScript from "../../images/JavaScript.png";
 import ReactImg from "../../images/ReactImg.png";
 import GitHub from "../../images/GitHub.png";
 import Python from "../../images/Python.png";
+import example1 from '../../images/example1.png';
 import "./Skills.css";
-
+import { Element } from "react-scroll";
 const Skills = () => {
   return (
-    <div>
+    <Element name="skills">
       <div className="skills">
-        <div className="container1">
-          <h3 className="skillsH3">My Skills</h3>
-          <div className="techIcons">
-            {/* <img src={HTML5} className="skillIcon"></img>
+        <div className="container1 skillsLeftRight">
+          <div className="skillsLeft">
+            <img src={example1}></img>
+          </div>
+          <div className="skillsRight">
+            <h3 className="skillsH3">My Skills</h3>
+            <div className="techIcons">
+              {/* <img src={HTML5} className="skillIcon"></img>
               <img src={CSS3} className="skillIcon"></img>
               <img src={Tailwind} className="skillIcon"></img>
            
@@ -27,34 +32,35 @@ const Skills = () => {
               <img src={GitHub} className="skillIcon"></img>
               <img src={Python} className="skillIcon"></img> */}
 
-            <div className="skillIcon">
-              <img src={HTML5}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={CSS3}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={Tailwind}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={Bootstrap}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={JavaScript}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={ReactImg}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={GitHub}></img>
-            </div>
-            <div className="skillIcon">
-              <img src={Python}></img>
+              <div className="skillIcon">
+                <img src={HTML5}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={CSS3}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={Tailwind}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={Bootstrap}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={JavaScript}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={ReactImg}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={GitHub}></img>
+              </div>
+              <div className="skillIcon">
+                <img src={Python}></img>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 
