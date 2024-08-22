@@ -68,13 +68,16 @@
    
         left: 18px;
         width: 3px;
-        height: 660px;
+        height: 680px;
      
     }
 
     .company::before{
         content: "(2024)";    
         left: 80%;    
+    }
+    .company{
+        font-size: medium;
     }
  
 

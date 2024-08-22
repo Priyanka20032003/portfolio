@@ -108,9 +108,13 @@
   }
 
   .contactRight form input {
-    width: 300px;
+    max-width: 280px;
     height: 40px;
     padding: 4px;
+  }
+  .contactRight form textarea{
+    max-width: 280px;
+
   }
 }
 @media screen and (min-width: 397px) and (max-width: 576px) {
