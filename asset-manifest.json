@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Priyanka20032003/portfolio/static/css/main.6164d02f.css",
+    "main.js": "/Priyanka20032003/portfolio/static/js/main.dcdfd033.js",
+    "static/media/healthcare.png": "/Priyanka20032003/portfolio/static/media/healthcare.346b26acca830d187e72.png",
+    "static/media/example1.png": "/Priyanka20032003/portfolio/static/media/example1.32b274a40894cc6175d5.png",
+    "static/media/realestate.jpg": "/Priyanka20032003/portfolio/static/media/realestate.b37dafc08dd25d6fea5d.jpg",
+    "static/media/randomQuote.jpg": "/Priyanka20032003/portfolio/static/media/randomQuote.a9255808d07634ee8ecf.jpg",
+    "static/media/stopwatch1.jpg": "/Priyanka20032003/portfolio/static/media/stopwatch1.8ac020d7f089d9894158.jpg",
+    "static/media/HTML5.png": "/Priyanka20032003/portfolio/static/media/HTML5.2cd5d05c9660ec55992e.png",
+    "static/media/Bootstrap.png": "/Priyanka20032003/portfolio/static/media/Bootstrap.7ec629589d73f8a028c5.png",
+    "static/media/profile.jpeg": "/Priyanka20032003/portfolio/static/media/profile.24d9d123f4d5674682aa.jpeg",
+    "static/media/Python.png": "/Priyanka20032003/portfolio/static/media/Python.65c0e9243c20520b4fdf.png",
+    "static/media/losangels.jpg": "/Priyanka20032003/portfolio/static/media/losangels.7c2c11ce43be36574e22.jpg",
+    "static/media/ReactImg.png": "/Priyanka20032003/portfolio/static/media/ReactImg.98ff38735baa4c1b0381.png",
+    "index.html": "/Priyanka20032003/portfolio/index.html",
+    "main.6164d02f.css.map": "/Priyanka20032003/portfolio/static/css/main.6164d02f.css.map",
+    "main.dcdfd033.js.map": "/Priyanka20032003/portfolio/static/js/main.dcdfd033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6164d02f.css",
+    "static/js/main.dcdfd033.js"
+  ]
+}
