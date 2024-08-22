@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6164d02f.css",
+    "main.css": "/portfolio/static/css/main.a8b06598.css",
     "main.js": "/portfolio/static/js/main.c04dbf0a.js",
     "static/media/healthcare.png": "/portfolio/static/media/healthcare.346b26acca830d187e72.png",
     "static/media/example1.png": "/portfolio/static/media/example1.32b274a40894cc6175d5.png",
@@ -14,11 +14,11 @@
     "static/media/losangels.jpg": "/portfolio/static/media/losangels.7c2c11ce43be36574e22.jpg",
     "static/media/ReactImg.png": "/portfolio/static/media/ReactImg.98ff38735baa4c1b0381.png",
     "index.html": "/portfolio/index.html",
-    "main.6164d02f.css.map": "/portfolio/static/css/main.6164d02f.css.map",
+    "main.a8b06598.css.map": "/portfolio/static/css/main.a8b06598.css.map",
     "main.c04dbf0a.js.map": "/portfolio/static/js/main.c04dbf0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6164d02f.css",
+    "static/css/main.a8b06598.css",
     "static/js/main.c04dbf0a.js"
   ]
 }
