@@ -40,7 +40,7 @@ const Projects = () => {
               <img src={healthcare}></img>
             </a>
             <h3>Easy Landing Page</h3>
-            <p>Tour website which contains the famous places of that city</p>
+            <p>A responsive static webpage created using HTML and CSS.</p>
             <a
               href="https://github.com/Priyanka20032003/easy_landing_page"
               target="_blank"
@@ -91,7 +91,7 @@ const Projects = () => {
               <img src={realestate}></img>
             </a>
             <h3>RealEstate Website</h3>
-            <p>Tour website which contains the famous places of that city</p>
+            <p>A responsive RealEstate website designed with React.</p>
             <a
               href="https://github.com/Priyanka20032003/realEstate_react"
               target="_blank"

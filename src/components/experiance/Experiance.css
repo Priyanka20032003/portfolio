@@ -9,7 +9,8 @@
     position: relative;
     margin-bottom: 30px;
 }
-.company,.description{
+
+.experianceDesc{
     margin-left: 150px;
 
 }
@@ -17,7 +18,15 @@
 .company{
     position: relative;
     font-size: 18px;
+    margin-bottom: 10px;
    
+}
+.duration, .role{
+    margin-bottom: 10px;
+
+}
+.role{
+    font-size:small;
 }
 .experianceH2::after{
     content: "";
@@ -26,7 +35,7 @@
     top:66px;
     left: 130px;
     width: 3px;
-    height: 270px;
+    height: 300px;
     background-color:  #291c3a;
 }
 .company::after{
@@ -60,7 +69,7 @@
     font-size: 16px;
 }
 @media screen and (max-width:396px){
-    .company,.description{
+    .experianceDesc{
         margin-left: 40px;
     
     }
@@ -83,7 +92,7 @@
 
 }
 @media screen and (min-width:397px) and (max-width:576px){
-    .company,.description{
+    .experianceDesc{
         margin-left: 50px;
     
     }
@@ -117,7 +126,7 @@
 
 }
 @media screen and (min-width:577px) and (max-width:768px){
-    .company,.description{
+    .experianceDesc{
         margin-left: 100px;
     
     }
