@@ -6,14 +6,17 @@
 }
 .experianceH2{
     font-size: 30px;
-    position: relative;
     margin-bottom: 30px;
 }
 
-.experianceDesc{
+.experiance1,.experiance2{
     margin-left: 150px;
 
 }
+.experiance2{
+    margin-bottom: 30px;
+}
+
 
 .company{
     position: relative;
@@ -28,14 +31,14 @@
 .role{
     font-size:small;
 }
-.experianceH2::after{
+.company::before{
     content: "";
     display: inline-block;
     position: absolute;
-    top:66px;
-    left: 130px;
+    top:0px;
+    left: -42px;
     width: 3px;
-    height: 300px;
+    height: 200px;
     background-color:  #291c3a;
 }
 .company::after{
@@ -43,24 +46,15 @@
     display: inline-block;
     position: absolute;
     top:0px;
-    left: -30px;
+    left: -50px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color:  #291c3a
+    background-color:  #291c3a;
 
 
 }
-.company::before{
-    content: "2024";
-    display: inline-block;
-    position: absolute;
-    top:0px;
-    left: -80px;
-    width: 20px;
-    height: 20px;
-   
-}
+
 .description{
     margin-top: 15px;
     max-width: 800px;
@@ -68,86 +62,115 @@
     text-align: justify;
     font-size: 16px;
 }
-@media screen and (max-width:396px){
-    .experianceDesc{
-        margin-left: 40px;
-    
-    }
-    .experianceH2::after{
-   
-        left: 18px;
-        width: 3px;
-        height: 680px;
-     
+.showMore {
+    color: #291c3a;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Hide mobile description by default */
+.mobile-toggle {
+    display: none;
+}
+
+/* Show default description for larger screens */
+@media screen and (max-width: 576px) {
+    .description {
+        display: none; /* Hide default description on mobile */
     }
 
-    .company::before{
-        content: "(2024)";    
-        left: 80%;    
+    .mobile-toggle {
+        display: block; /* Show toggle for mobile */
     }
+
+    .mobile {
+        display: block; /* Show description when toggled */
+    }
+}
+
+
+
+@media screen and (max-width:396px){
+    .experiance1,.experiance2{
+        margin-left: 40px;
+    }
+    .company::before{
+        left: -20px;
+        height: 100px;
+    }
+    .company::after{    
+         left: -30px;
+
+    }
+
     .company{
         font-size: medium;
     }
+   
  
 
 }
-@media screen and (min-width:397px) and (max-width:576px){
-    .experianceDesc{
+@media screen and (min-width:399px) and (max-width:450px){
+    .experiance1,.experiance2{
         margin-left: 50px;
-    
     }
-    .experianceH2::after{
+    .company::after{    
+        left: -40px;
+
+   }
+    .company::before{
+        left: -30px;
+        height: 100px;
+    }
    
-        left: 28px;
-        width: 3px;
-        height: 510px;
-     
-    }
-
-    .company::before{
-        content: "(2024)";    
-        left: 65%;    
-    }
 }
-@media screen and (min-width:398px) and (max-width:450px){
-    .company::before{
-        content: "(2024)";    
-        left: 79%;    
-    }
 
-
-}
 @media screen and (min-width:451px) and (max-width:576px){
+    .experiance1,.experiance2{
+        margin-left: 70px;
+    }
+    .company::after{    
+        left: -40px;
+
+   }
     .company::before{
-        content: "(2024)";    
-        left: 62%;    
+        left: -32px;
+        height: 100px;
     }
-
-
 }
+
 @media screen and (min-width:577px) and (max-width:768px){
-    .experianceDesc{
-        margin-left: 100px;
-    
+    .experiance1,.experiance2{
+        margin-left: 70px;
     }
-    .experianceH2::after{
-   
-        left: 78px;
-        width: 3px;
-        height: 420px;
-     
+    .company::after{    
+        left: -40px;
+
+   }
+    .company::before{
+        left: -32px;
+        height: 230px;
     }
 
    
 }
 @media screen and (min-width:769px) and (max-width:1200px){
-    .experianceH2::after{
-   
-        left: 130px;
-        width: 3px;
-        height: 330px;
-     
+    .experiance1,.experiance2{
+        margin-left: 100px;
     }
+    .company::after{    
+        left: -40px;
+
+   }
+
+    .company::before{
+        left: -32px;
+        height: 210px;
+    }
+
+
 
 
 }

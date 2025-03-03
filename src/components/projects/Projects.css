@@ -7,7 +7,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    column-gap: 50px;
+    row-gap: 30px;
+    
 }
 .card{
     width: 280px;
@@ -16,6 +18,7 @@
     margin-top: 30px;
     background-color: #dccfed;
     box-shadow: 0 4px 10px gray;
+   
 }
 .card img{
     width: 95%;
@@ -24,8 +27,7 @@
     margin-block: 6px;
     border-radius: 15px;
     object-fit: cover;
-    cursor: pointer;
-
+    
 }
 .card h3,.card p{
     width: 95%;
@@ -39,7 +41,7 @@
     height: 80px;
   
 }
-.card button{
+/* .card button{
     width: 95%;
     margin: auto;
     padding-block: 7px;
@@ -51,12 +53,63 @@
     font-size: 16px;
     cursor: pointer;
 
-}
+} */
 .projectH2{
     font-size: 30px;
    
     
 }
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.btns .card_btn{
+    width: 120px;
+    margin: auto;
+    padding-block: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 6px;
+    background-color: #331c52;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.card:hover {
+    /* transform: translateY(-20px);  */
+    transform: scale(1.05);
+  }
+  
+.card_btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+  }
+  
+.card_btn:hover {
+    background-color: #0056b3;
+   
+  }
+  
+.card_btn:active {
+    transform: scale(0.95); 
+  }
+  
+  
+
+  
 
 @media screen and (min-width:397px) and (max-width:576px){
     .cards{

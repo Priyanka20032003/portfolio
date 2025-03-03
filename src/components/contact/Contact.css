@@ -88,7 +88,7 @@
   }
   .violetbox {
     /* border: 2px solid; */
-    padding-inline: 20px;
+    padding-inline: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
   }
@@ -126,7 +126,7 @@
   }
   .violetbox {
     /* border: 2px solid; */
-    padding-inline: 20px;
+    padding-inline: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
   }
@@ -154,14 +154,21 @@
     flex-direction: column;
     gap: 40px;
     justify-content: center;
+    align-items: center;
   }
   .contactRight form input,
   .contactRight form textarea,
   .contactRight form button {
-    width: 70%;
+    width: 100%;
   }
-  .icons {
+  /* .icons {
     margin-left: -25%;
+  } */
+  .violetbox {
+    /* border: 2px solid; */
+    padding-inline: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -171,7 +178,7 @@
     gap: 10px;
   }
   .violetbox {
-    padding-inline: 80px;
+    padding-inline: 70px;
   }
   .contact-Left-Right {
     display: flex;

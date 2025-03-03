@@ -21,16 +21,6 @@ const Skills = () => {
           <div className="skillsRight">
             <h3 className="skillsH3">My Skills</h3>
             <div className="techIcons">
-              {/* <img src={HTML5} className="skillIcon"></img>
-              <img src={CSS3} className="skillIcon"></img>
-              <img src={Tailwind} className="skillIcon"></img>
-           
-              <img src={Bootstrap} className="skillIcon"></img>
-              <img src={JavaScript} className="skillIcon"></img>
-              <img src={ReactImg} className="skillIcon"></img>
-          
-              <img src={GitHub} className="skillIcon"></img>
-              <img src={Python} className="skillIcon"></img> */}
 
               <div className="skillIcon">
                 <img src={HTML5}></img>

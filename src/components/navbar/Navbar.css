@@ -40,6 +40,7 @@
   justify-content: center;
   align-items: center;
   column-gap: 35px;
+  margin-left: 130%;
  
 }
 .nav ul li a {
@@ -50,6 +51,7 @@
 
 .nav ul li:hover {
   text-decoration: underline;
+  transform: scale(1.1);
 
 }
 .nav ul li a.active {
@@ -62,6 +64,7 @@
   padding-block: 5px;
   border-radius: 5px;
   font-size: 20px;
+  cursor: pointer;
   position: relative;
   
 }

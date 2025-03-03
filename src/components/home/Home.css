@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     background:linear-gradient(125deg,white,#331C52,#291c3a) ;
+    /* background-color:#291c3a ; */
     color: white;
     padding-block:30px ;
     padding-top: 80px;
@@ -40,6 +41,7 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    object-fit: cover;
 }
 @media screen and (max-width:396px){
     .home{
