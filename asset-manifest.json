@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4e74bf82.css",
-    "main.js": "/portfolio/static/js/main.e5fe9ade.js",
+    "main.css": "/portfolio/static/css/main.edfdee26.css",
+    "main.js": "/portfolio/static/js/main.75d4ac44.js",
     "static/media/healthcare.png": "/portfolio/static/media/healthcare.346b26acca830d187e72.png",
     "static/media/example1.png": "/portfolio/static/media/example1.32b274a40894cc6175d5.png",
     "static/media/realestate.jpg": "/portfolio/static/media/realestate.b37dafc08dd25d6fea5d.jpg",
@@ -15,11 +15,11 @@
     "static/media/losangels.jpg": "/portfolio/static/media/losangels.7c2c11ce43be36574e22.jpg",
     "static/media/ReactImg.png": "/portfolio/static/media/ReactImg.98ff38735baa4c1b0381.png",
     "index.html": "/portfolio/index.html",
-    "main.4e74bf82.css.map": "/portfolio/static/css/main.4e74bf82.css.map",
-    "main.e5fe9ade.js.map": "/portfolio/static/js/main.e5fe9ade.js.map"
+    "main.edfdee26.css.map": "/portfolio/static/css/main.edfdee26.css.map",
+    "main.75d4ac44.js.map": "/portfolio/static/js/main.75d4ac44.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e74bf82.css",
-    "static/js/main.e5fe9ade.js"
+    "static/css/main.edfdee26.css",
+    "static/js/main.75d4ac44.js"
   ]
 }
