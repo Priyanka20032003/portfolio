@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   column-gap: 35px;
-  margin-left: 130%;
+
  
 }
 .nav ul li a {
@@ -95,6 +95,7 @@
   cursor: pointer;
 }
 
+
 @media screen and (max-width: 576px) {
   .nav ul {
     display: block;
@@ -145,13 +146,15 @@
     flex-direction: column;
     gap: 15px;
     align-items: flex-start;
+    font-size: 20px;
 
    }
   
 }
 
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .nav ul {
+  /* .nav ul {
     display: block;
   }
 
@@ -202,7 +205,26 @@
     align-items: flex-start;
 
    }
-  
+   */
+   .btn button {
+    display: none;
+  }
+  .nav ul li{
+    font-size: 20px;
+  }
 
-  
+}
+@media screen and (min-width:769px) and (max-width:968px){
+  .container{
+    width: 90%;
+  }
+  .header{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn button{
+    font-size: 15px;
+    padding-inline: 5px;
+    
+  }
 }

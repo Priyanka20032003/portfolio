@@ -14,7 +14,7 @@
 .aboutp1{
    
     max-width: 800px;
-    line-height: 35px;
+    line-height: 40px;
     /* border: 2px solid red; */
     font-size: 20px;
     text-align: justify;
@@ -27,7 +27,7 @@
     }
     .aboutp1{
         max-width: 350px;
-        line-height: 30px;
+        line-height: 40px;
         /* border: 2px solid red; */
         font-size: 18px;
         text-align: justify;
@@ -42,7 +42,7 @@
     }
     .aboutp1{
         max-width: 450px;
-        line-height: 30px;
+        line-height: 35px;
         font-size: 18px;
         text-align: justify;
         
@@ -52,7 +52,7 @@
  
     .aboutp1{
         max-width: 550px;
-        line-height: 30px;
+        line-height: 35px;
         font-size: 20px;
 
     }
@@ -62,7 +62,7 @@
     .aboutp1{
        
         max-width: 650px;
-        line-height: 30px;
+        line-height: 35px;
         font-size: 20px;
 
     }

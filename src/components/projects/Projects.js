@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className="projects ">
       <div className="container1 ">
-        <h2 className="projectH2">My Projects</h2>
+        <h2 className="projectH2">Projects</h2>
         <div className="cards">
           <div className="card">
             <img src={todo}></img>
