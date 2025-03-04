@@ -258,6 +258,13 @@
     justify-content: center;
     text-align: center;
   }
+.skillsH3{
+margin-left: 20px;
+}
+.techIcons{
+  margin-left: 20px;
+
+}
 }
 
 @media screen and (min-width: 397px) and (max-width: 576px) {
@@ -265,9 +272,10 @@
     display: none;
   }
   .skillsLeftRight {
-    justify-content: center;
+   margin-left: 40px;
     text-align: start;
   }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -275,7 +283,7 @@
     display: none;
   }
   .skillsLeftRight {
-    justify-content: center;
+   margin-left: 40px;
     text-align: start;
   }
 }
