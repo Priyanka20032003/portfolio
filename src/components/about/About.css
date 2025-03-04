@@ -10,6 +10,7 @@
 .aboutH3{
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: start;
 }
 .aboutp1{
    
@@ -27,7 +28,7 @@
     }
     .aboutp1{
         max-width: 350px;
-        line-height: 40px;
+        line-height: 30px;
         /* border: 2px solid red; */
         font-size: 18px;
         text-align: justify;

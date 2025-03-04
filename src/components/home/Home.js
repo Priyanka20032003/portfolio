@@ -10,11 +10,14 @@ const Home = () => {
           <img src={profileImage}></img>
         </div>
         <div className="homeHeader">
-          <h2 className="homeH2">I'm Priyanka</h2>
-          <h1 className="homeH1">
-            Frontend<br></br> Developer
-          </h1>
-          <p className="homep1">I build things for web</p>
+          <h2 className="homeH2">Hi, I'm Priyanka</h2>
+          <h1 className="homeH1">Frontend Developer</h1>
+          <p className="homep1">
+            I turn ideas into visually stunning and highly interactive web
+            applications. With a strong grasp of React, JavaScript, and modern
+            web technologies, I craft seamless user experiences that balance
+            aesthetics and functionality.
+          </p>
         </div>
       </div>
     </Element>

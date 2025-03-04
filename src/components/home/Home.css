@@ -1,9 +1,10 @@
 .home{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background:linear-gradient(125deg,white,#331C52,#291c3a) ;
-    /* background-color:#291c3a ; */
+   column-gap: 80px;
+    /* background:linear-gradient(125deg,white,#331C52,#291c3a) ; */
+    background-color:#291c3a ;
     color: white;
     padding-block:30px ;
     padding-top: 80px;
@@ -12,28 +13,33 @@
     margin-left: -15%;
 } */
 .homeH2{
-    margin-top: 50px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 30px;
     font-weight: 400;
+    text-align: start;
 }
-.emoji{
+/* .emoji{
     font-size: 32px;
     margin-left: -5px;
     
-}
+} */
 .homeH1{
-    margin-top: 20px;
-    font-size: 75px;
+    margin-top: 10px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #8121D0;
     opacity: 0.8;
+    text-align: start;
 }
 .homep1{
-    font-size: 40px;
+    font-size: 20px;
+    text-align: start;
+    line-height: 35px;
+    max-width: 900px;
 }
 .profile{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin-left: -90px;
 }
 .profile img{
@@ -42,29 +48,36 @@
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    border: 5px soild black;
+    box-shadow: 5px 5px 5px black;
 }
 @media screen and (max-width:396px){
     .home{
         display: flex;
         flex-direction: column;
-        background:linear-gradient(155deg,white,#331C52,#291c3a) ;
+       
+        /* background:linear-gradient(155deg,white,#331C52,#291c3a) ; */
        
    
     }
    
     .homeH2{
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .homeH1{
         margin-top: 10px;
-        font-size: 45px;
+        font-size: 15px;
         margin-bottom: 20px;
+        text-align: center;
     
     }
     .homep1{
-        font-size: 25px;
+        font-size: 18px;
+        max-width: 400px;
+      
     }
     .profile{
         width: 200px;
@@ -82,24 +95,27 @@
 @media screen and (min-width:397px) and (max-width:576px){
     .home{
         display: flex;
-        background:linear-gradient(125deg,white,#331C52,#291c3a) ;
+        flex-direction: column;
         justify-content: space-around;
    
     }
    
     .homeH2{
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .homeH1{
         margin-top: 10px;
-        font-size: 45px;
+        font-size: 15px;
         margin-bottom: 20px;
     
     }
     .homep1{
-        font-size: 25px;
+        font-size: 18px;
+        max-width: 400px;
+        line-height: 30px;
+      
     }
     .profile{
         width: 200px;
@@ -110,40 +126,57 @@
 
 }
 @media screen and (min-width:577px) and (max-width:768px){
+   .home{
+    display: flex;
+   }
     .homeH2{
-       margin-top: 0;
-        font-size: 35px;
+        margin-top: 10px;
+        font-size: 20px;
     }
+
     .homeH1{
         margin-top: 10px;
-        font-size: 45px;
-    
+        font-size: 15px;
+        margin-bottom: 20px;
     
     }
     .homep1{
-        font-size: 30px;
-    }
-    .profile{
-        width: 250px;
-        height: 250px;
-        margin-left: 0;
+        font-size: 18px;
+        max-width: 380px;
+        line-height: 30px;
       
     }
+    .profile{
+        width: 180px;
+        height: 180px;
+        margin-left: 20px;
+    }
+   
 
 }
 @media screen and (min-width:769px) and (max-width:1200px){
-    .profile{
-        width: 300px;
-        height: 300px;
-        margin-left: 0;
+    .homeH2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .homeH1{
+        margin-top: 10px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    
+    }
+    .homep1{
+        font-size: 18px;
+        max-width: 550px;
+        line-height: 30px;
+        text-align: justify;
       
     }
-    .home{
-        background:linear-gradient(115deg,white,#331C52,#291c3a) ;
+    .profile{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
     }
-    .homeH2{
-        margin-top: 0;
-         font-size: 35px;
-     }
     
 }
